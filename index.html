@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simon Game | Souvik Dey</title>
+	<link rel= "stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+	<link rel= "stylesheet" href= "styles.css">
+	<audio id= "buzzer1" src= "https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" type= "audio/mpeg"></audio>
+	<audio id= "buzzer2" src= "https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" type= "audio/mpeg"></audio>
+	<audio id= "buzzer3" src= "https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" type= "audio/mpeg"></audio>
+	<audio id= "buzzer4" src= "https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" type= "audio/mpeg"></audio>
+	<audio id= "buzzer5" src= "https://www.soundjay.com/button/beep-05.mp3" type= "audio/mpeg"></audio>
+</head>
+<body>
+	<div class= "container">
+		<div class= "simonboard">
+			<div class= "simon-button" id= "green"></div>
+			<div class= "simon-button" id= "red"></div>
+			<div class= "simon-button" id= "yellow"></div>
+			<div class= "simon-button" id= "blue"></div>
+			<div class= "innerboard">
+			</div>
+			<div class= "controls">
+				<div class= "brand">SIMON</div>
+				<div class= "count">
+					<span class= "counter"></span>
+				</div>
+				<span class= "c">COUNT</span>
+				<div class= "start">
+				</div>
+				<span class= "sta">START</span>
+				<div class= "indicator">
+				</div>
+				<div class= "strict">
+				</div>
+				<span class= "str">STRICT</span>
+			</div>
+		</div>
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<script type="text/javascript" src= "engine.js"></script>
+	<script>
+		var bleep = $("#buzzer1")[0];
+		var bleep1 = $("#buzzer2")[0];
+		var bleep2 = $("#buzzer3")[0];
+		var bleep3 = $("#buzzer4")[0];
+		var bleep4 = $("#buzzer5")[0];
+	</script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+.simon-button{
+	height: 250px;
+	width: 250px;
+	float: left;
+}
+#green{
+	border: 30px solid #393737;
+	border-radius: 250px 0 0 0;
+	background-color: green;
+}
+#red{
+	border: 30px solid #393737;
+	border-radius: 0 250px 0 0;
+	background-color: red;
+}
+#blue{
+	border: 30px solid #393737;
+	border-radius: 0 0 250px 0;
+	background-color: blue;
+}
+#yellow{
+	border: 30px solid #393737;
+	border-radius: 0 0 0 250px;
+	background-color: yellow;
+}
+.simonboard{
+	height: 500px;
+	width: 500px;
+	margin: 5% auto auto auto;
+}
+.innerboard{
+	height: 500px;
+	width: 500px;
+	margin: 5% auto auto auto;
+	border: 5px solid #393737;
+	border-radius: 50%;
+	box-shadow: 0px 0px 15px 0px black;
+}
+.controls{
+	height: 250px;
+	width: 250px;
+	margin: 5% auto auto auto;
+	border: 15px solid #393737;
+	background-color: white;
+	border-radius: 50%;
+	position: relative;
+	z-index: +1;
+	bottom: 400px;
+}
+.green-active{
+	background-color: #6DE75A !important;
+}
+.blue-active{
+	background-color: #5C5FFF !important;
+}
+.red-active{
+	background-color: #FF6060 !important;
+}
+.yellow-active{
+	background-color: #FDFF63 !important;
+}
+.count{
+	height: 50px;
+	width: 70px;
+	border: 5px solid #393737;
+	border-radius: 10px;
+	background-color: #4F0202;
+	position: relative;
+	top: 90px;
+	left: 20px;
+	color: red;
+	font-size: 2em;
+	text-align: center;
+}
+.start{
+	border-radius: 50%;
+	background-color: red;
+	width: 30px;
+	height: 30px;
+	border: 5px solid #393737;
+	position: relative;
+	top: 50px;
+	left: 105px;
+	box-shadow: 0px 2px 3px 0px black;
+}
+.start:active{
+	transform: translate(0px, 1px);
+	box-shadow: none;
+}
+.strict{
+	border-radius: 50%;
+	background-color: yellow;
+	width: 30px;
+	height: 30px;
+	border: 5px solid #393737;
+	position: relative;
+	top: 20px;
+	left: 155px;
+	box-shadow: 0px 2px 3px 0px black;
+}
+.strict:active{
+	transform: translate(0px, 1px);
+	box-shadow: none;
+}
+.indicator{
+	border-radius: 50%;
+	background-color: #4F0202;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	left: 165px;
+	top: 85px;
+}
+.c{
+	position: absolute;
+	top: 145px;
+	left: 38px;
+	font-family: 'Abel', sans-serif;
+}
+.sta{
+	position: absolute;
+	top: 145px;
+	left: 103px;
+	font-family: 'Abel', sans-serif;
+}
+.str{
+	position: absolute;
+	top: 145px;
+	left: 152px;
+	font-family: 'Abel', sans-serif;
+}
+.brand{
+	position: absolute;	
+	top: 30px;
+	left: 40px;
+	font-size: 3em;
+	font-family: 'Russo One', sans-serif;
+}
+body{
+	background-color: #AFAFAF;
+}
