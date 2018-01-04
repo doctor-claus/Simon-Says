@@ -9,7 +9,6 @@ $(document).ready(function(){
 		nextSequence: function(){
 			var nextColor = simon.color[Math.floor(Math.random() * simon.color.length)];
 			simon.sequence.push(nextColor);
-			console.log(simon.sequence);
 			simon.count += 1;
 			var interval = setInterval(function(){
 				$(".counter").text(simon.count);
@@ -99,9 +98,6 @@ $(document).ready(function(){
 						}, 1000);
 						simon.step = 0;
 						simon.sequence = [];
-						setTimeout(function(){
-							simon.nextSequence();
-						}, 1000);
 					}
 					else{
 						if(input == 'green'){
